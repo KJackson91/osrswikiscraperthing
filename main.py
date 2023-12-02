@@ -14,7 +14,7 @@ log = get_logger("osrs_wiki_embeddings_gen")
 log.setLevel(logging.INFO)
 
 osrs_wiki = MediaWiki(url=f'{BASE_URL}/api.php',
-                      user_agent='test-elaida')
+                      user_agent='osrs_wiki_embeddings_gen v1.0 discord:\'kyle.\'')
 
 
 def write_page(page_name, page_text):
